@@ -1,5 +1,6 @@
 package com.jjh.study;
 
+import com.jjh.study.stage.one.HandlingStrings;
 import com.jjh.study.stage.one.IntPlacementByDescendingOrder;
 import com.jjh.study.stage.one.PandYCount;
 import com.jjh.study.stage.one.SquareRootVerification;
@@ -21,6 +22,10 @@ public class CodingTestStudyApplication {
 		
 		PandYCount pandYCount = new PandYCount();
 		pandYCount.solution("PYPYPYpypypoooo");
+		
+		/*문자열 다루기 기본*/
+		HandlingStrings handlingStrings = new HandlingStrings();
+		handlingStrings.solution("12312");
 		
 	}
 }
