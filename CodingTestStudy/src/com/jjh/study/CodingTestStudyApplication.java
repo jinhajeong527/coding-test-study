@@ -1,31 +1,31 @@
 package com.jjh.study;
 
-import com.jjh.study.stage.one.HandlingStrings;
-import com.jjh.study.stage.one.IntPlacementByDescendingOrder;
-import com.jjh.study.stage.one.PandYCount;
-import com.jjh.study.stage.one.SquareRootVerification;
-import com.jjh.study.stage.one.SumOfDivisors;
+import com.jjh.study.stage.one.*;
 
 public class CodingTestStudyApplication {
 
 	public static void main(String[] args) {
-		
-		/* Á¤¼ö Á¦°ö±Ù ÆÇº° */
+
+		/* ì •ìˆ˜ ì œê³±ê·¼ íŒë³„ */
 		SquareRootVerification squareRootVerification = new SquareRootVerification();
 		squareRootVerification.solution(144);
-		/* Á¤¼ö ³»¸²Â÷¼øÀ¸·Î ¹èÄ¡ÇÏ±â */
+		/* ì •ìˆ˜ ë‚´ë¦¼ì°¨ìˆœìœ¼ë¡œ ë°°ì¹˜í•˜ê¸° */
 		IntPlacementByDescendingOrder intPlacementByDescendingOrder = new IntPlacementByDescendingOrder();
-		intPlacementByDescendingOrder.solution(1241412);
-		/*¾à¼öÀÇ ÇÕ */
+		intPlacementByDescendingOrder.solution(12414);
+		/*ì•½ìˆ˜ì˜ í•© */
 		SumOfDivisors sumOfDivisors = new SumOfDivisors();
 		sumOfDivisors.solution(10000);
 		
 		PandYCount pandYCount = new PandYCount();
 		pandYCount.solution("PYPYPYpypypoooo");
-		
-		/*¹®ÀÚ¿­ ´Ù·ç±â ±âº»*/
+
+		/*ë¬¸ìì—´ ë‹¤ë£¨ê¸° ê¸°ë³¸*/
 		HandlingStrings handlingStrings = new HandlingStrings();
 		handlingStrings.solution("12312");
+
+		/*í–‰ë ¬ì˜ ë§ì…ˆ*/
+		TwoDimensionalArray twoDimensionalArray = new TwoDimensionalArray();
+		twoDimensionalArray.solution(new int[][]{{1,2},{2,3}}, new int[][]{{3,4},{5,6}});
 		
 	}
 }
