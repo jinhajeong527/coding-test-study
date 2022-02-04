@@ -1,6 +1,7 @@
 package com.jjh.study;
 
 import com.jjh.study.stage.one.IntPlacementByDescendingOrder;
+import com.jjh.study.stage.one.PandYCount;
 import com.jjh.study.stage.one.SquareRootVerification;
 import com.jjh.study.stage.one.SumOfDivisors;
 
@@ -17,5 +18,9 @@ public class CodingTestStudyApplication {
 		/*약수의 합 */
 		SumOfDivisors sumOfDivisors = new SumOfDivisors();
 		sumOfDivisors.solution(10000);
+		
+		PandYCount pandYCount = new PandYCount();
+		pandYCount.solution("PYPYPYpypypoooo");
+		
 	}
 }
