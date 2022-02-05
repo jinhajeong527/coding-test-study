@@ -30,6 +30,10 @@ public class CodingTestStudyApplication {
 		/*문자열 내림차순으로 배치하기*/
 		StringRelocationByDescendingOrder stringRelocationByDescendingOrder = new StringRelocationByDescendingOrder();
 		stringRelocationByDescendingOrder.solution("KkaA");
+
+		/*시저 암호*/
+		CaesarCipher caesarCipher = new CaesarCipher();
+		caesarCipher.solution("ZML   A",25);
 		
 	}
 }
