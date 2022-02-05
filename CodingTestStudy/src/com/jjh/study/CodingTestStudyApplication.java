@@ -26,6 +26,10 @@ public class CodingTestStudyApplication {
 		/*행렬의 덧셈*/
 		TwoDimensionalArray twoDimensionalArray = new TwoDimensionalArray();
 		twoDimensionalArray.solution(new int[][]{{1,2},{2,3}}, new int[][]{{3,4},{5,6}});
+
+		/*문자열 내림차순으로 배치하기*/
+		StringRelocationByDescendingOrder stringRelocationByDescendingOrder = new StringRelocationByDescendingOrder();
+		stringRelocationByDescendingOrder.solution("KkaA");
 		
 	}
 }
