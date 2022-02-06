@@ -34,6 +34,21 @@ public class CodingTestStudyApplication {
 		/*시저 암호*/
 		CaesarCipher caesarCipher = new CaesarCipher();
 		caesarCipher.solution("ZML   A",25);
+
+		/* 소수 찾기 */
+		FindingDemimal findingDemimal = new FindingDemimal();
+		findingDemimal.solution(5);
+
+		/*문자열을 정수로 바꾸기 */
+		StrngToInteger stringToInteger = new StrngToInteger();
+		stringToInteger.solution("-1212");
+
+		/*이상한 문자 만들기 */
+		MakingWeirdWords makingWeirdWords = new MakingWeirdWords();
+		makingWeirdWords.solution("try hello world");
+
+
+
 		
 	}
 }
