@@ -36,8 +36,8 @@ public class CodingTestStudyApplication {
 		caesarCipher.solution("ZML   A",25);
 
 		/* 소수 찾기 */
-		FindingDemimal findingDemimal = new FindingDemimal();
-		findingDemimal.solution(5);
+		FindingPrimeNumber findingPrimeNumber = new FindingPrimeNumber();
+		findingPrimeNumber.solution(5);
 
 		/*문자열을 정수로 바꾸기 */
 		StrngToInteger stringToInteger = new StrngToInteger();
@@ -46,6 +46,10 @@ public class CodingTestStudyApplication {
 		/*이상한 문자 만들기 */
 		MakingWeirdWords makingWeirdWords = new MakingWeirdWords();
 		makingWeirdWords.solution("try hello world");
+
+		/*최대공약수와 최소공배수 구하기*/
+		GreatestCommonDivisorAndLeastCommonMultiple gcdLcm = new GreatestCommonDivisorAndLeastCommonMultiple();
+		gcdLcm.solution(1112, 695);
 
 
 
