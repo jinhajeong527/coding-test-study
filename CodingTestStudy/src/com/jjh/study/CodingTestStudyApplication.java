@@ -51,6 +51,9 @@ public class CodingTestStudyApplication {
 		GreatestCommonDivisorAndLeastCommonMultiple gcdLcm = new GreatestCommonDivisorAndLeastCommonMultiple();
 		gcdLcm.solution(1112, 695);
 
+		/*같은 숫자는 싫어 */
+		NoMoreSameNumber noMoreSameNumber = new NoMoreSameNumber();
+		noMoreSameNumber.solution(new int[]{1,2,3,4,4,4,5});
 
 
 		
