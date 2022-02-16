@@ -19,7 +19,7 @@ public class MakingPrimeNumber {
         }
         return answer;
     }
-
+        //메서드로 만든다.
         public boolean isPrimeNumber(int num){
             for(int m = 2; m < num; m++) {
                 if (num % m == 0) return false;
