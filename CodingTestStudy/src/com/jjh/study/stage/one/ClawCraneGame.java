@@ -20,7 +20,7 @@ public class ClawCraneGame {
 							intArr[index] = board[j][location-1];
 						}
 						board[j][location-1] = 0;//뽑아갔으니까 비워준다.
-						if(intArr.length >= 2) { //인형 바구니가 두개 이상이면, 똑같은거 있는지 체크해준다.
+						if(index >= 1) { //인형 바구니가 두개 이상이면, 똑같은거 있는지 체크해준다.
 							if(intArr[index] == intArr[index-1]) {
 								index = index-2;
 								answer = answer +2;
