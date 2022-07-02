@@ -23,6 +23,8 @@ public class FloodFill {
             visited[sr][sc] = true;
             if(originalColor == newImage[sr][sc]) {
                 newImage[sr][sc] = aimedColor;
+                // 조건 하나하나 써주는 대신 아래와 같이 한 번에 OR 연산으로 정리할 수도 있음.
+                // if (sr < 0 || sr >= image.length || sc < 0 || sc >= image[0].length || image[sr][sc] != color) return;
                 // 왼쪽 탐색
                 if(sc-1 >= 0) dfs(visited, newImage, sr, sc - 1, aimedColor);
                 // 오른쪽 탐색
